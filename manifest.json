@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "easy pip",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "open PIP in chrome easier",
   "browser_action": {
     "default_icon": {
@@ -19,9 +19,7 @@
     "all_frames": true
   }],
   "permissions": [
-    "tabs",
-    "webNavigation",
-    "storage"
+    "activeTab"
   ],
   "icons": {
     "16": "pip-32.png",
